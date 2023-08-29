@@ -23,7 +23,7 @@ export const App = () => {
     } else {
       setFilteredTickets(allTickets);
     }
-  }, [showEmergencyOnly]);
+  }, [showEmergencyOnly, allTickets]);
 
   return (
     <div className="tickets-container">
